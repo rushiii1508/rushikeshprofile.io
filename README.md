@@ -105,3 +105,90 @@
   </footer>
 </body>
 </html>
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #f7f9fc;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+header {
+  background-color: #1f3b73;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+header .title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+header .contact a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+header .contact a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: 30px 0;
+}
+
+h2 {
+  color: #1f3b73;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #1f3b73;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #1f3b73;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.6em;
+  }
+  .container {
+    width: 95%;
+  }
+}
